@@ -45,22 +45,25 @@ export const Slider = () => {
         }
     };
 
-
+    /* eslint-disable*/
     useEffect(() => {
         if (isFirstRun) {
             return setFirstRun(false)
         }
         setStep(config[step][direction])
     }, [direction]);
+    /* exlint-enable*/
 
     const getImage = () => (<div className={`slider-image ${config[step].image}`}/>);
 
+    /* eslint-disable*/
     const setNewStep = (param) => {
         if (direction === param) {
             return setStep(config[step][direction])
         }
         setDirection(param)
     };
+    /* exlint-enable*/
 
     return (
         <div>

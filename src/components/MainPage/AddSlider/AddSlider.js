@@ -34,22 +34,25 @@ export const AddSlider = () => {
         }
     };
 
-
+    /* eslint-disable*/
     useEffect(() => {
         if (isFirstRun) {
             return setFirstRun(false)
         }
         setStep(config[step][direction])
     }, [direction]);
+    /* exlint-enable*/
 
-    const getImage = () => (<img src={config[step].imageUrl}/>);
+    const getImage = () => (<img alt='slider' src={config[step].imageUrl}/>);
 
+    /* eslint-disable*/
     const setNewStep = (param) => {
         if (direction === param) {
             return setStep(config[step][direction])
         }
         setDirection(param)
     };
+    /* exlint-enable*/
 
     return (
         <div className='add-slider'>
