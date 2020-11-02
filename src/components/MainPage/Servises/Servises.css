@@ -1,0 +1,11 @@
+.servises {
+    width: 90%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servises-title {
+    text-align: left;
+    margin-bottom: 35px;
+}

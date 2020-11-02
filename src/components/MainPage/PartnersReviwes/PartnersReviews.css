@@ -1,0 +1,48 @@
+.partners-reviews {
+    position: relative;
+    margin-bottom: 105px;
+}
+
+.partners-reviews-title {
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.partner-revies-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.review-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3%;
+}
+
+.review-pagination img {
+    margin-left: 12%;
+}
+
+.review-pagination {
+    width: 7%;
+    margin-right: 10%;
+    position: relative;
+    top: 7px;
+}
+
+.review-arrows {
+    width: 5.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+
+.arrow-left,
+.arrow-right {
+    width: 2%;
+}

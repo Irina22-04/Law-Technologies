@@ -1,0 +1,26 @@
+.advantage {
+    width: 23%;
+    height: 285px;
+    background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    padding-top: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    line-height: 24px;
+}
+
+.advantage-image {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.advantage-image img {
+    width: 100%;
+}
+
+.advantage.big-advantage {
+    height: 335px;
+}

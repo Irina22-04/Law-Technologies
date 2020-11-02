@@ -1,0 +1,26 @@
+.header-contacts-wrapper {
+    line-height: 12px;
+    position: relative;
+}
+
+.header-phone {
+    position: relative;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 12px;
+    line-height: 8px;
+    top: -3px;
+}
+
+.phone-icon {
+    margin-right: 12px;
+}
+
+.phone-icon-right {
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+.first-header-phone {
+    font-size: 14px;
+    margin-right: 20px;
+}

@@ -1,0 +1,50 @@
+.partnership-form {
+    width: 48.5%;
+    height: 365px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 4%;
+    padding-right: 4.2%;
+    box-sizing: border-box;
+}
+
+.partnership-form input {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 10px;
+    width: 97%;
+    margin-bottom: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0.6;
+}
+
+.form-name,
+.text-link-private {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.009em;
+    margin-bottom: 10px;
+}
+
+.text-link-private {
+    margin-bottom: 30px;
+}
+
+.text-link-private span {
+    font-weight: bold;
+    text-decoration: underline;
+}

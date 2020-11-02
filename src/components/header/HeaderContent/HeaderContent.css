@@ -1,0 +1,21 @@
+.header-content-wrapper {
+    width: 100%;
+    max-width: 1300px;
+    box-sizing: border-box;
+    padding-left: 65px;
+    padding-top: 13px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.header-add-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-eye {
+    margin-left: 21%;
+    position: relative;
+    top: -3px;
+}

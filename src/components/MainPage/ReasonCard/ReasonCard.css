@@ -1,0 +1,56 @@
+.reason-card {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 375px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #FFFFFF;
+}
+
+.reason-title {
+    margin-bottom: 30px;
+}
+
+.reason-article {
+    width: 50%;
+}
+
+.reason-text {
+    width: 85%;
+    letter-spacing: 0.01em;
+}
+
+.reason-goals {
+    width: 50%;
+    padding-left: 6%
+}
+
+.goal {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.goal-image {
+    position: relative;
+    top: -5px;
+    width: 6.8%;
+    margin-right: 6%;
+}
+
+.goal-image img {
+    width: 100%;
+}
+
+.goal-text {
+    width: 70%;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.75)
+}

@@ -1,0 +1,34 @@
+.main-page {
+    box-sizing: border-box;
+}
+.color-background {
+    background-color: #E5E5E5;
+}
+
+.main-title {
+    font-family: 'Commissioner', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.main-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.about-section {
+    padding-top: 80px;
+}
+
+.background {
+    width: 100%;
+    height: 180px;
+    background-image: url('../../images/main-page/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}

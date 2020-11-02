@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper {
+    width: 1300px;
+    height: max-content;
+}
+
+.header-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 20px;
+    height: 102px;
+    box-sizing: border-box;
+}
+
+.header-navigation {
+    width: 60%;
+}

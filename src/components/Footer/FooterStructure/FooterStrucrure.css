@@ -1,0 +1,56 @@
+.footer-structure {
+    box-sizing: border-box;
+    width: 55%;
+    padding-top: 85px;
+    margin-right: 1%;
+    text-align: left;
+}
+
+.subtitle {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+.footer-wrapper .footer-structure hr {
+    margin-bottom: 30px;
+    margin-top: 5px
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-office-contacts {
+    width: 32%;
+}
+
+.main-office-contacts .phone {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.important-text.adress {
+    margin-bottom: 6px;
+}
+
+.main-adress {
+    margin-bottom: 20px;
+}
+
+.office-contacts {
+    width: 27%;
+}
+
+.middle-container {
+    margin-right: 3%;
+}

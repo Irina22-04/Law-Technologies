@@ -1,0 +1,63 @@
+.review {
+    width: 48.8%;
+    height: 585px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.review-image {
+    background-image: url('../../../images/main-page/review.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.review-content {
+    text-align: left;
+}
+
+.review-wrapper {
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+
+.review-job {
+    margin-bottom: 2px;
+}
+
+.review-name {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    color: #DEC377;
+    margin-bottom: 20px;
+}
+
+.review-text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.review-link {
+    position: absolute;
+    bottom: 63px;
+    left: 8.5%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,44 @@
+.about-us {
+    width: 90%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.about-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.about-us-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    background: #FFFFFF;
+    padding-top: 35px;
+    height: 185px;
+    box-sizing: border-box;
+}
+
+.about-us-title {
+    width: 20%;
+    padding-left: 4.3%;
+}
+
+.about-us-text {
+    width: 61%;
+    padding-top: 5px;
+    padding-right: 5%;
+    letter-spacing: 0.1px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+

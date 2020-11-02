@@ -1,0 +1,22 @@
+.direction-article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.direction-article-title {
+    width: 30%;
+    text-align: left;
+}
+
+.direction-article-text {
+    width: 70%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 4%;
+}
+
+.direction-article-paragraph {
+    margin-bottom: 25px;
+    letter-spacing: 0.009em;
+}

@@ -1,0 +1,49 @@
+.direction-item {
+    width: 31.6%;
+    height: 140px;
+    padding-left: 3.5%;
+    padding-top: 25px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.direction-name {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    width: 60%;
+}
+
+.direction-link {
+    position: absolute;
+    bottom: 25px;
+    left: 10.7%;
+}
+
+.direction-image{
+    width: 21.7%;
+    position: absolute;
+    top: 10%;
+    right: 4%;
+}
+
+.direction-image img {
+    width: 100%;
+}
+
+.details-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}

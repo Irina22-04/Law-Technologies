@@ -1,0 +1,13 @@
+.reason {
+    width: 90%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.reason hr {
+    margin: 0;
+}

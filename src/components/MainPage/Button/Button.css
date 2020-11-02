@@ -1,0 +1,27 @@
+.button {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #DEC377;
+    border-radius: 2px;
+}
+
+.button-title {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.button.big-button {
+    width: 100%;
+}

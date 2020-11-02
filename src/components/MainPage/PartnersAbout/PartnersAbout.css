@@ -1,0 +1,41 @@
+.partners-about-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.partners-about-text {
+    width: 60%;
+}
+
+.partners-button {
+    position: relative;
+    left: -200px;
+}
+
+.partners-button .button {
+    background-color: #FFFFFF;
+    border: 2px solid #DEC377;
+    box-sizing: border-box;
+}
+
+.partners-button .button-title {
+    color: #DEC377;
+}
+
+.partners-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.parner-logo {
+    width: auto;
+}
+
+.parner-logo img {
+    filter: grayscale(100%);
+    width: 100%;
+}

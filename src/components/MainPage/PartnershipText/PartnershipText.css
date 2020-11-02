@@ -1,0 +1,35 @@
+.partnership-text {
+    width: 50%;
+    text-align: left;
+}
+
+.partnership-title {
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.partnership-step {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.step-digit {
+    margin-right: 5%;
+}
+
+.step-text {
+    width: 70%;
+}
+
+.partnership-paragraph {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 10px;
+    width: 85%;
+}

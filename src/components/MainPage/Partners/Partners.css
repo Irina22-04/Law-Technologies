@@ -1,0 +1,9 @@
+.partners {
+    width: 90%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}

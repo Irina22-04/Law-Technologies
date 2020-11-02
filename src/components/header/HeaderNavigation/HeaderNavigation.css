@@ -1,0 +1,13 @@
+.navigation-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.link {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    width: max-content;
+    min-width: 42px;
+}

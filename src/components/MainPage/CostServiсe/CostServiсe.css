@@ -1,0 +1,20 @@
+.cost-service {
+    width: 90%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding-top: 95px;
+    padding-bottom: 100px;
+}
+
+.cost-service-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.cost-service-text {
+    text-align: left;
+    width: 58%;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,62 @@
+.servise-item {
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    position: relative;
+    height: 140px;
+    padding-left: 100px;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.servise-side {
+    height: 100%;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.servise-name {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.servise-link {
+    width: max-content;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.first-side {
+    background-color: rgba(222, 195, 119, 0.4);
+}
+
+.second-side {
+    background-color: rgba(222, 195, 119, 0.75);
+}
+
+.third-side {
+    background-color: #DEC377;
+}
+
+.first-one-item,
+.third-two-item {
+    width: 40.2%;
+}
+
+.first-two-item,
+.third-one-item {
+    width: 57.2%;
+    padding-right: 10%;
+}
+
+.second-one-item,
+.second-two-item {
+    width: 48.5%;
+}

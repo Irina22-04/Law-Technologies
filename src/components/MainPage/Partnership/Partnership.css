@@ -1,0 +1,11 @@
+.partnership{
+    width: 90%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
