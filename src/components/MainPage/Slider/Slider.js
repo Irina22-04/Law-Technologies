@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {CSSTransition, SwitchTransition} from 'react-transition-group'
 import './Slider.css';
 import {Button} from "../Button/Button";
@@ -6,7 +6,6 @@ import {Button} from "../Button/Button";
 export const Slider = () => {
     const [step, setStep] = useState(1);
     const [direction, setDirection] = useState('nextStep');
-    const [isFirstRun, setFirstRun] = useState(true);
     const config = {
         1: {
             image: 'receivables',
@@ -45,25 +44,19 @@ export const Slider = () => {
         }
     };
 
-    /* eslint-disable*/
-    useEffect(() => {
-        if (isFirstRun) {
-            return setFirstRun(false)
-        }
+    const setNewDirection = () => {
         setStep(config[step][direction])
-    }, [direction]);
-    /* exlint-enable*/
+    };
 
     const getImage = () => (<div className={`slider-image ${config[step].image}`}/>);
 
-    /* eslint-disable*/
     const setNewStep = (param) => {
         if (direction === param) {
             return setStep(config[step][direction])
         }
-        setDirection(param)
+        setDirection(param);
+        setTimeout(setNewDirection, 0);
     };
-    /* exlint-enable*/
 
     return (
         <div>

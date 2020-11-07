@@ -1,11 +1,10 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {CSSTransition, SwitchTransition} from 'react-transition-group'
 import './AddSlider.css';
 
 export const AddSlider = () => {
     const [step, setStep] = useState(1);
     const [direction, setDirection] = useState('nextStep');
-    const [isFirstRun, setFirstRun] = useState(true);
     const config = {
         1: {
             imageUrl: './images/slider/couch.png',
@@ -34,25 +33,19 @@ export const AddSlider = () => {
         }
     };
 
-    /* eslint-disable*/
-    useEffect(() => {
-        if (isFirstRun) {
-            return setFirstRun(false)
-        }
+    const setNewDirection = () => {
         setStep(config[step][direction])
-    }, [direction]);
-    /* exlint-enable*/
+    };
 
     const getImage = () => (<img alt='slider' src={config[step].imageUrl}/>);
 
-    /* eslint-disable*/
     const setNewStep = (param) => {
         if (direction === param) {
             return setStep(config[step][direction])
         }
-        setDirection(param)
+        setDirection(param);
+        setTimeout(setNewDirection, 0);
     };
-    /* exlint-enable*/
 
     return (
         <div className='add-slider'>
